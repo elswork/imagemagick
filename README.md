@@ -36,7 +36,7 @@ make start PARAM=someparameter
 Example of usage:
 
 ```bash
-docker run -it --rm -v $(pwd)/data:/data elswork/squoosh \
+docker run -it --rm -v $(pwd)/data:/data elswork/imagemagick \
 magick cover.jpg -resize 50% cover.png
 ```
 
