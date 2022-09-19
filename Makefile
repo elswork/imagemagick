@@ -1,5 +1,5 @@
 SNAME ?= imagemagick
-NAME ?= elswork/$(SNAME)
+RNAME ?= elswork/$(SNAME)
 VER ?= `cat VERSION`
 BASENAME ?= alpine:latest
 TARGET_PLATFORM ?= linux/amd64,linux/arm64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7,linux/arm/v6
